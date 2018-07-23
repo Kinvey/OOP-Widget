@@ -1,114 +1,100 @@
 [
-    [
-        {
-            "serviceId": "5b4ea0688df026520455122f",
-            "episode": "Knee Arthroscopy",
-            "episodeDesc": "TEXT",
-            "POS": "Hospital Outpatient",
-            "service": "Knee Arthroscopy (Facility)",
-            "coverageLevel": "family",
-            "dedIndRem": 2983.57,
-            "oopIndRem": 2983.57,
-            "dedFamRem": 5956.09,
-            "oopFamRem": 5956.09,
-            "serviceCost": 1000,
-            "benefitType": "coins",
-            "benefitValue": 0.4,
-            "label": "Low",
-            "oop": "1000.00",
-            "narrative": "Your individual deductible is greater then service cost, your out of pocket cost is the cost of the service, $1000"
-        },
-        {
-            "serviceId": "5b4ea0688df026520455122f",
-            "episode": "Knee Arthroscopy",
-            "episodeDesc": "TEXT",
-            "POS": "Hospital Outpatient",
-            "service": "Knee Arthroscopy (Facility)",
-            "coverageLevel": "family",
-            "dedIndRem": 2983.57,
-            "oopIndRem": 2983.57,
-            "dedFamRem": 5956.09,
-            "oopFamRem": 5956.09,
-            "serviceCost": 2000,
-            "benefitType": "coins",
-            "benefitValue": 0.4,
-            "label": "Average",
-            "oop": "2000.00",
-            "narrative": "Your individual deductible is greater then service cost, your out of pocket cost is the cost of the service, $2000"
-        },
-        {
-            "serviceId": "5b4ea0688df026520455122f",
-            "episode": "Knee Arthroscopy",
-            "episodeDesc": "TEXT",
-            "POS": "Hospital Outpatient",
-            "service": "Knee Arthroscopy (Facility)",
-            "coverageLevel": "family",
-            "dedIndRem": 2983.57,
-            "oopIndRem": 2983.57,
-            "dedFamRem": 5956.09,
-            "oopFamRem": 5956.09,
-            "serviceCost": 3000,
-            "benefitType": "coins",
-            "benefitValue": 0.4,
-            "label": "High",
-            "oop": "2990.14",
-            "narrative": "Your out of pocket cost is your remaining individual deductible, $2983.57 plus coinsurance of 40% over the remaining $16.43"
-        }
-    ],
-    [
-        {
-            "serviceId": "5b4ea0683c5edb1da5e2ad41",
-            "episode": "Knee Arthroscopy",
-            "episodeDesc": "TEXT",
-            "POS": "Hospital Outpatient",
-            "service": "Knee Arthroscopy (Professional)",
-            "coverageLevel": "family",
-            "dedIndRem": 2983.57,
-            "oopIndRem": 2983.57,
-            "dedFamRem": 5956.09,
-            "oopFamRem": 5956.09,
-            "serviceCost": 2000,
-            "benefitType": "coins",
-            "benefitValue": 0.4,
-            "label": "Low",
-            "oop": "2000.00",
-            "narrative": "Your individual deductible is greater then service cost, your out of pocket cost is the cost of the service, $2000"
-        },
-        {
-            "serviceId": "5b4ea0683c5edb1da5e2ad41",
-            "episode": "Knee Arthroscopy",
-            "episodeDesc": "TEXT",
-            "POS": "Hospital Outpatient",
-            "service": "Knee Arthroscopy (Professional)",
-            "coverageLevel": "family",
-            "dedIndRem": 2983.57,
-            "oopIndRem": 2983.57,
-            "dedFamRem": 5956.09,
-            "oopFamRem": 5956.09,
-            "serviceCost": 4000,
-            "benefitType": "coins",
-            "benefitValue": 0.4,
-            "label": "Average",
-            "oop": "3390.14",
-            "narrative": "Your out of pocket cost is your remaining individual deductible, $2983.57 plus coinsurance of 40% over the remaining $1016.43"
-        },
-        {
-            "serviceId": "5b4ea0683c5edb1da5e2ad41",
-            "episode": "Knee Arthroscopy",
-            "episodeDesc": "TEXT",
-            "POS": "Hospital Outpatient",
-            "service": "Knee Arthroscopy (Professional)",
-            "coverageLevel": "family",
-            "dedIndRem": 2983.57,
-            "oopIndRem": 2983.57,
-            "dedFamRem": 5956.09,
-            "oopFamRem": 5956.09,
-            "serviceCost": 6000,
-            "benefitType": "coins",
-            "benefitValue": 0.4,
-            "label": "High",
-            "oop": "4190.14",
-            "narrative": "Your out of pocket cost is your remaining individual deductible, $2983.57 plus coinsurance of 40% over the remaining $3016.43"
-        }
-    ]
+    {
+        "episode": "Knee Arthroscopy",
+        "episodeDesc": "TEXT",
+        "service": "Knee Arthroscopy (Facility)",
+        "dedIndRem": 2983.57,
+        "oopIndRem": 2983.57,
+        "dedFamRem": 5956.09,
+        "oopFamRem": 5956.09,
+        "allowedAmt": [
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba6",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 2000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "Low",
+                "oop": "2000.00",
+                "narrative": "For Knee Arthroscopy (Facility), your individual deductible is greater then service cost, your OOP cost is the cost of the service $2000"
+            },
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba6",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 4000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "Average",
+                "oop": "3390.14",
+                "narrative": "For Knee Arthroscopy (Facility), your OOP cost is your remaining individual deductible, $2983.57 plus coinsurance of 40% over the remaining $1016.43"
+            },
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba6",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 6000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "High",
+                "oop": "4190.14",
+                "narrative": "For Knee Arthroscopy (Facility), your OOP cost is your remaining individual deductible, $2983.57 plus coinsurance of 40% over the remaining $3016.43"
+            }
+        ]
+    },
+    {
+        "episode": "Knee Arthroscopy",
+        "episodeDesc": "TEXT",
+        "service": "Knee Arthroscopy (Professional)",
+        "dedIndRem": 2983.57,
+        "oopIndRem": 2983.57,
+        "dedFamRem": 5956.09,
+        "oopFamRem": 5956.09,
+        "allowedAmt": [
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba7",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 2000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "Low",
+                "oop": "1390.14",
+                "narrative": "For Knee Arthroscopy (Professional), your OOP cost is your remaining individual deductible, $983.57 plus coinsurance of 40% over the remaining $1016.43"
+            },
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba7",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 4000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "Average",
+                "oop": "0.00",
+                "narrative": "For Knee Arthroscopy (Professional), your OOP maximums are met, your cost will be $0"
+            },
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba7",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 6000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "High",
+                "oop": "0.00",
+                "narrative": "For Knee Arthroscopy (Professional), your OOP maximums are met, your cost will be $0"
+            }
+        ]
+    },
+    {
+        "totals": [
+            {
+                "label": "Low",
+                "oopTotal": "3390.14"
+            },
+            {
+                "label": "Average",
+                "oopTotal": "3390.14"
+            },
+            {
+                "label": "High",
+                "oopTotal": "4190.14"
+            }
+        ]
+    }
 ]
