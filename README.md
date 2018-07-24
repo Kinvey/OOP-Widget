@@ -9,7 +9,7 @@ The calculator will take into account the member's insurance plan benefits and t
 
 ## Installation
 
-To use this wiget, clone this GitHub repository, and install the associated dependencies:
+To use this widget, clone this GitHub repository, and install the associated dependencies:
 
 ```npm install```
 
@@ -30,7 +30,7 @@ To deploy to Kinvey Flex container:
 This OOP Flex Connector uses the following dependencies, in addition to the `kinvey-flex-sdk`:
 
 Collections
-* *user:* The user collection the first_name, last_name, dateOfBirth, memberId, planID, provider, 
+* *user:* The user collection the first_name, last_name, dateOfBirth, memberId, planID, provider, payerName "pokitdok id"
 * *health-plan:* Health plan 
 * *benefit-plan:* Benefit information
 * *service-cost* Service cost information
