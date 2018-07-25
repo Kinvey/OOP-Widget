@@ -23,7 +23,8 @@ v6.x or greater.  Execute:
 Create a flex service Internal OOP, then deploy to Kinvey Flex container:
   Execute:
 
-```npm run deploy
+```
+npm run deploy
 
 v0.1.1
 Deploy initiated. Job: 0dabb32b8f24434a991912804beb7647
