@@ -15,10 +15,13 @@ To use this widget, clone this GitHub repository, and install the associated dep
 
 ```npm install -g kinvey-cli```
 
-The DLC can either be deployed to the FlexService Runtime, or run locally.  To run locally, you must have node.js
-v6.x or greater.  Execute:
+The DLC can either be deployed to the FlexService Runtime, or run locally.  To run locally, use ngrok.
+Execute:
 
-```node .```
+```
+ngrok http 10001
+node .
+```
 
 Create a flex service Internal OOP, then deploy to Kinvey Flex container:
   Execute:
