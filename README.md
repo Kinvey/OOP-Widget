@@ -55,5 +55,50 @@ Collections
 * *oop:* Out of pocket widget service, create collection and assign to Internal OOP "oop data service" 
 * *service:* Service cost wrapper service, create collection and assign to Internal OOP "service data service"
 
+## TEST
+```
+Request:
+/appdata/kid_r1CYqYf4X/oop?query={"service_id":"","episode_name":"Knee Arthroscopy","category_name":"Day Of"}
 
-
+Response:
+{
+        "episode": "Knee Arthroscopy",
+        "episodeDesc": "TEXT",
+        "service": "Knee Arthroscopy (Facility)",
+        "dedIndRem": 2983.57,
+        "oopIndRem": 2983.57,
+        "dedFamRem": 5956.09,
+        "oopFamRem": 5956.09,
+        "allowedAmt": [
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba6",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 2000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "Low",
+                "oop": "2000.00",
+                "narrative": "For Knee Arthroscopy (Facility), your individual deductible is greater then service cost, your OOP cost is the cost of the service $2000"
+            },
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba6",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 4000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "Average",
+                "oop": "3390.14",
+                "narrative": "For Knee Arthroscopy (Facility), your OOP cost is your remaining individual deductible, $2983.57 plus coinsurance of 40% over the remaining $1016.43"
+            },
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba6",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 6000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "High",
+                "oop": "4190.14",
+                "narrative": "For Knee Arthroscopy (Facility), your OOP cost is your remaining individual deductible, $2983.57 plus coinsurance of 40% over the remaining $3016.43"
+            }
+        ]
+```
