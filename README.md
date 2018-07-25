@@ -20,20 +20,41 @@ v6.x or greater.  Execute:
 
 ```node .```
 
-To deploy to Kinvey Flex container:
+Create a flex service Internal OOP, then deploy to Kinvey Flex container:
   Execute:
 
 ```npm run deploy```
+
+> oop-flex-reference@0.1.0 deploy /Users/ronaldheiney/OOP-Widget
+> npm version --no-git-tag-version patch && kinvey flex deploy
+
+v0.1.1
+Deploy initiated. Job: 0dabb32b8f24434a991912804beb7647
+
+```npm run status```
+
+Job status: ACTIVE - Building image.
+key      value                           
+-------  --------------------------------
+status   NEW                             
+version                                  
+id       dab03b8e52c748b1b05c625c5fd8b97e
+name     Internal OOP                    
+
 
 ## Dependencies
 
 This OOP Flex Connector uses the following dependencies, in addition to the `kinvey-flex-sdk`:
 
 Collections
+
 * *user:* The user collection the first_name, last_name, dateOfBirth, memberId, planID, provider, payerName "pokitdok id"
 * *health-plan:* Health plan 
+* *eligibilty:* Rapid Health eligibility "Pokitdoc"
 * *benefit-plan:* Benefit information
-* *service-cost* Service cost information
-* *oop* Out of pocket widget service 
-* *service* Service cost wrapper service
+* *service-cost:* Service cost information
+* *oop:* Out of pocket widget service, create collection and assign to Internal OOP "oop data service" 
+* *service:* Service cost wrapper service, create collection and assign to Internal OOP "service data service"
+
+
 
