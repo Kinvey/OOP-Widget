@@ -23,25 +23,23 @@ v6.x or greater.  Execute:
 Create a flex service Internal OOP, then deploy to Kinvey Flex container:
   Execute:
 
-```npm run deploy```
-
-> oop-flex-reference@0.1.0 deploy /Users/ronaldheiney/OOP-Widget
-> npm version --no-git-tag-version patch && kinvey flex deploy
+```npm run deploy
 
 v0.1.1
 Deploy initiated. Job: 0dabb32b8f24434a991912804beb7647
 
-```npm run status```
+npm run status
 
-Job status: ACTIVE - Building image.
-key      value                           
--------  --------------------------------
-status   NEW                             
-version                                  
-id       dab03b8e52c748b1b05c625c5fd8b97e
-name     Internal OOP                    
-
-
+Job status: COMPLETE
+key            value                             
+-------------  ----------------------------------
+status         ONLINE                            
+version        0.1.1                             
+id             dab03b8e52c748b1b05c625c5fd8b97e  
+name           Internal OOP                      
+requestedAt    Monday, July 23rd 2018, 4:58:23 PM
+deployerEmail  ronald.heiney@progress.com        
+```
 ## Dependencies
 
 This OOP Flex Connector uses the following dependencies, in addition to the `kinvey-flex-sdk`:
