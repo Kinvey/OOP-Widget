@@ -54,9 +54,9 @@ Collections
 * *health-plan:* Health plan 
 * *eligibilty:* Rapid Health eligibility "Pokitdoc"
 * *benefit-plan:* Benefit information
-* *service-cost:* Service cost information
+* *oop-service-cost:* Service cost information
 * *oop:* Out of pocket widget service, create collection and assign to Internal OOP "oop data service" 
-* *service:* Service cost wrapper service, create collection and assign to Internal OOP "service data service"
+* *oop-service:* Service cost wrapper service, create collection and assign to Internal OOP "service data service"
 
 ## TEST
 ```
