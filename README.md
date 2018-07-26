@@ -50,7 +50,7 @@ This OOP Flex Connector uses the following dependencies, in addition to the `kin
 
 Collections
 
-* *user:* The user collection the first_name, last_name, dateOfBirth, memberId, planID, provider, payerName "pokitdok id"
+* *user:* The user collection the first_name, last_name, dateOfBirth, memberId, planCode, planProvider, payerName "pokitdok id"
 * *health-plan:* Health plan 
 * *eligibilty:* Rapid Health eligibility "Pokitdoc"
 * *benefit-plan:* Benefit information
