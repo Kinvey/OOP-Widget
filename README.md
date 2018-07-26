@@ -56,7 +56,7 @@ Collections
 * *plan-benefit:* Benefit information
 * *oop-service-cost:* Service cost information
 * *oop:* Out of pocket widget service, create collection and assign to Internal OOP "oop data service" 
-* *oop-service:* Service cost wrapper service, create collection and assign to Internal OOP "service data service"
+* *oop-services:* Service cost wrapper service, create collection and assign to Internal OOP "service data service"
 
 ## TEST
 ```
