@@ -1,0 +1,108 @@
+[
+    {
+        "episode": "Knee Arthroscopy",
+        "episodeDesc": "TEXT",
+        "service": "Knee Arthroscopy (Facility)",
+        "dedIndRem": 2983.57,
+        "oopIndRem": 2983.57,
+        "dedFamRem": 5956.09,
+        "oopFamRem": 5956.09,
+        "dedIndLimit": 3000,
+        "oopIndLimit": 3000,
+        "dedFamLimit": 6000,
+        "oopFamLimit": 6000,
+        "allowedAmt": [
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba6",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 1000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "Low",
+                "oop": "1000.00",
+                "narrative": "For Knee Arthroscopy (Facility), your individual deductible is greater then service cost, your OOP cost is the cost of the service $1000.00"
+            },
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba6",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 2000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "Average",
+                "oop": "2000.00",
+                "narrative": "For Knee Arthroscopy (Facility), your individual deductible is greater then service cost, your OOP cost is the cost of the service $2000.00"
+            },
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba6",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 3000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "High",
+                "oop": "2983.57",
+                "narrative": "For Knee Arthroscopy (Facility), your OOP Max is met, your OOP cost is remaining OOP Max $2983.57"
+            }
+        ]
+    },
+    {
+        "episode": "Knee Arthroscopy",
+        "episodeDesc": "TEXT",
+        "service": "Knee Arthroscopy (Professional)",
+        "dedIndRem": 2983.57,
+        "oopIndRem": 2983.57,
+        "dedFamRem": 5956.09,
+        "oopFamRem": 5956.09,
+        "dedIndLimit": 3000,
+        "oopIndLimit": 3000,
+        "dedFamLimit": 6000,
+        "oopFamLimit": 6000,
+        "allowedAmt": [
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba7",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 2000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "Low",
+                "oop": "1983.57",
+                "narrative": "For Knee Arthroscopy (Professional), your OOP Max is met, your OOP cost is remaining OOP Max $1983.57"
+            },
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba7",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 4000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "Average",
+                "oop": "983.57",
+                "narrative": "For Knee Arthroscopy (Professional), your OOP Max is met, your OOP cost is remaining OOP Max $983.57"
+            },
+            {
+                "serviceId": "5b550cad3c5edb1da5e2bba7",
+                "POS": "Hospital Outpatient",
+                "serviceCost": 6000,
+                "benefitType": "coins",
+                "benefitValue": 0.4,
+                "label": "High",
+                "oop": "0.00",
+                "narrative": "For Knee Arthroscopy (Professional), your OOP Maximums are met, your cost will be $0"
+            }
+        ]
+    },
+    {
+        "totals": [
+            {
+                "label": "Low",
+                "oopTotal": "2983.57"
+            },
+            {
+                "label": "Average",
+                "oopTotal": "2983.57"
+            },
+            {
+                "label": "High",
+                "oopTotal": "2983.57"
+            }
+        ]
+    }
+]

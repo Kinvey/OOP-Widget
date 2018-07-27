@@ -52,7 +52,7 @@ Collections
 
 * *user:* The user collection the first_name, last_name, dateOfBirth, memberId, planCode, planProvider, payerName "pokitdok id"
 * *health-plan:* Health plan 
-* *eligibilty:* Rapid Health eligibility "Pokitdoc"
+* *oop-eligibilty:* Rapid Health eligibility "Pokitdoc"
 * *plan-benefit:* Benefit information
 * *oop-service-cost:* Service cost information
 * *oop:* Out of pocket widget service, create collection and assign to Internal OOP "oop data service" 
