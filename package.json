@@ -1,6 +1,6 @@
 {
   "name": "oop-flex-reference",
-  "version": "0.1.14",
+  "version": "0.1.16",
   "description": "An Out of Pocket calculator reference client",
   "main": "index.js",
   "scripts": {
